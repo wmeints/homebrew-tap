@@ -9,20 +9,20 @@ class Firebrick < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/wmeints/firebrick/releases/download/v0.13.1/firebrick-v0.13.1-aarch64-apple-darwin.tar.gz"
-      sha256 "0d56d07eb29a1cf2c406213f9af6fcb16ed8e4744c41198eb59c880e9876fdd1"
+      url "https://github.com/wmeints/firebrick/releases/download/v0.15.0/firebrick-v0.15.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a9162924d7e842aaf1e9973a2b94fdbdb384f9788d3fda05bdb09fc358845883"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wmeints/firebrick/releases/download/v0.13.1/firebrick-v0.13.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ac449290fe7c2c2056e1f5b7926873f911a50a2d336c6e2d9c3b548339e9cc77"
+      url "https://github.com/wmeints/firebrick/releases/download/v0.15.0/firebrick-v0.15.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a1aa3eb80a0a02de0d0a1f5f58012ff89e3f30debefabf92e061e961540bdef7"
     end
 
     on_arm do
-      url "https://github.com/wmeints/firebrick/releases/download/v0.13.1/firebrick-v0.13.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f89c4aef2c315183154c8fa60008043f373f3f864448b1c2fa905d091b6a0885"
+      url "https://github.com/wmeints/firebrick/releases/download/v0.15.0/firebrick-v0.15.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "22529c080914ff9ec435928eae53d28902eed92e59c0a75a3f80b1976d5c82a8"
     end
   end
 
